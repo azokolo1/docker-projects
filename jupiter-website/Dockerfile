@@ -27,6 +27,3 @@ EXPOSE 80
 
 # set the default application that will start when the container start
 ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-
-# set the default application that will start when the container start
-ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
